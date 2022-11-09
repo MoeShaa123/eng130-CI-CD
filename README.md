@@ -1,4 +1,4 @@
-# Jenkins//CI-CD
+# Jenkins/CI-CD
 
 ![jen drawio](https://user-images.githubusercontent.com/106158041/200811214-2754cfb9-0259-42a6-b68d-9db015477d8e.png)
 
