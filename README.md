@@ -46,7 +46,7 @@
 
 - Blue/green deployments provide a level of isolation between your blue and green application environments. This helps ensure spinning up a parallel green environment does not affect resources underpinning your blue environment. This isolation reduces your deployment risk.
 
-- If there is an issue with green environment, you can also rollback to the previous version
+- The fundamental idea behind blue/green deployment is to shift traffic between two identical environments that are running different versions of your application. Also if there is an issue with green environment, you can also rollback to the previous version which is working.
 
 ![image](https://user-images.githubusercontent.com/106158041/201677078-1886036f-0030-4491-bbed-edd74b145743.png)
 
