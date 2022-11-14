@@ -42,9 +42,11 @@
 
 ## Blue-Green Deployment
 
-A blue/green deployment is a deployment strategy in which you create two separate, but identical environments. One environment (blue) is running the current application version and one environment (green) is running the new application version.
+- A blue/green deployment is a deployment strategy in which you create two separate, but identical environments. One environment (blue) is running the current application version and one environment (green) is running the new application version.
 
-Blue/green deployments provide a level of isolation between your blue and green application environments. This helps ensure spinning up a parallel green environment does not affect resources underpinning your blue environment. This isolation reduces your deployment risk.
+- Blue/green deployments provide a level of isolation between your blue and green application environments. This helps ensure spinning up a parallel green environment does not affect resources underpinning your blue environment. This isolation reduces your deployment risk.
+
+- If there is an issue with green environment, you can also rollback to the previous version
 
 ![image](https://user-images.githubusercontent.com/106158041/201677078-1886036f-0030-4491-bbed-edd74b145743.png)
 
