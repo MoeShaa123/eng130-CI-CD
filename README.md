@@ -38,3 +38,13 @@
 
 - Make sure you have copied the app folder
 - Now you should have the app running on port 3000
+
+
+## Blue-Green Deployment
+
+A blue/green deployment is a deployment strategy in which you create two separate, but identical environments. One environment (blue) is running the current application version and one environment (green) is running the new application version.
+
+Blue/green deployments provide a level of isolation between your blue and green application environments. This helps ensure spinning up a parallel green environment does not affect resources underpinning your blue environment. This isolation reduces your deployment risk.
+
+
+
